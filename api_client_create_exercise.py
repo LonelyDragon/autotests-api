@@ -1,30 +1,30 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
 from clients.exercises.exercises_client import CreateExerciseRequestDict, get_exercises_client
-from clients.files.files_client import get_files_client, CreateFileRequestDict
+from clients.files.files_client import get_files_client, CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
-from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict
+from clients.users.public_users_client import get_public_users_client, CreateUserRequestSchema
 from tools.fakers import get_random_email
 
 public_user_client = get_public_users_client()
 
-create_user_request = CreateUserRequestDict(
+create_user_request = CreateUserRequestSchema(
     email=get_random_email(),
     password="test",
-    lastName="test",
-    firstName="test",
-    middleName="test"
+    last_name="test",
+    first_name="test",
+    middle_name="test"
 )
 create_user_response = public_user_client.create_user(create_user_request)
 
 authentication_user = AuthenticationUserSchema(
-    email=create_user_request["email"],
-    password=create_user_request["password"]
+    email=create_user_request.email,
+    password=create_user_request.password
 )
 
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
 
-create_file_request = CreateFileRequestDict(
+create_file_request = CreateFileRequestSchema(
     filename="image.png",
     directory="courses",
     upload_file="./testdata/files/image.png"
