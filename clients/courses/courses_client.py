@@ -3,7 +3,7 @@ from __future__ import annotations
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.courses.courses_schema import GetCoursesQueryShema, CreateCourseRequestSchema, UpdateCourseRequestSchema, \
+from clients.courses.courses_schema import GetCoursesQuerySchema, CreateCourseRequestSchema, UpdateCourseRequestSchema, \
     CreateCourseResponseSchema
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
@@ -11,7 +11,7 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 class CoursesClient(APIClient):
     """Клиент для работы с /api/v1/courses."""
 
-    def get_courses_api(self, query: GetCoursesQueryShema) -> Response:
+    def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """Метод получения списка курсов.
 
         :param query: Словарь с userId.
