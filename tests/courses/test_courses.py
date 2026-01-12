@@ -9,6 +9,7 @@ from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCour
 from fixtures.courses import CourseFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.courses import assert_update_course_response, assert_get_courses_response, \
     assert_create_course_response
@@ -17,6 +18,7 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.courses
 @pytest.mark.regression
+@allure.tag(AllureTag.COURSES, AllureTag.REGRESSION)
 class TestCourses:
 
     @allure.title("Update course")

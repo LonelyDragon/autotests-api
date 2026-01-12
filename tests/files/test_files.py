@@ -7,6 +7,7 @@ from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorRe
 from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema
 from fixtures.files import FileFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.files import assert_create_file_response, assert_get_file_response, \
     assert_create_file_with_empty_filename_response, assert_create_file_with_empty_directory_response, \
@@ -16,6 +17,7 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.files
 @pytest.mark.regression
+@allure.tag(AllureTag.FILES, AllureTag.REGRESSION)
 class TestFiles:
 
     @allure.title("Create file")

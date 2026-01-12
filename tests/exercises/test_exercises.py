@@ -10,6 +10,7 @@ from clients.exercises.exercises_schema import CreateExerciseRequestSchema, Crea
     GetExercisesResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
+from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.exercies import assert_create_exercise_response, assert_get_exercise_response, \
     assert_update_exercise_response, assert_exercise_not_found_response, assert_get_exercises_response
@@ -18,6 +19,7 @@ from tools.assertions.schema import validate_json_schema
 
 @pytest.mark.regression
 @pytest.mark.exercises
+@allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 class TestExercises:
 
     @allure.title("Create exercise")
