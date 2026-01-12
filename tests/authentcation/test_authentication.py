@@ -21,6 +21,8 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.AUTHENTICATION)
+@allure.suite(AllureFeature.AUTHENTICATION)
+@allure.parent_suite(AllureEpic.LMS)
 class TestAuthentication:
 
     @allure.story(AllureStory.LOGIN)

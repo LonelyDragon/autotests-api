@@ -26,6 +26,8 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.EXERCISES, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.EXERCISES)
+@allure.suite(AllureFeature.EXERCISES)
+@allure.parent_suite(AllureEpic.LMS)
 class TestExercises:
 
     @allure.tag(AllureTag.CREATE_ENTITY)

@@ -23,6 +23,8 @@ from tools.fakers import fake
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.USERS)
+@allure.suite(AllureFeature.USERS)
+@allure.parent_suite(AllureEpic.LMS)
 class TestUsers:
 
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
