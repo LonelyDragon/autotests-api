@@ -16,7 +16,7 @@ from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercies import assert_create_exercise_response, assert_get_exercise_response, \
+from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, \
     assert_update_exercise_response, assert_exercise_not_found_response, assert_get_exercises_response
 from tools.assertions.schema import validate_json_schema
 
