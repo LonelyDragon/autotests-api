@@ -4,6 +4,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
 from clients.users.users_schema import CreateUserResponseSchema, CreateUserRequestSchema
+from tools.routes import APIRoutes
 
 
 class PublicUsersClient(APIClient):
@@ -17,7 +18,7 @@ class PublicUsersClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.post(
-            "/api/v1/users",
+            APIRoutes.USERS,
             json=request.model_dump(by_alias=True)
         )
 
