@@ -61,7 +61,7 @@ jobs:
         with:
           name: allure-dir
           path: |
-            /allure-results
+            allure-results/
   
   
   
