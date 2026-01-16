@@ -80,7 +80,7 @@ jobs:
           path: gh-pages  # Указываем путь для сохранения отчётов
 
       - name: Download Allure results
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v7
         with:
           name: allure-dir
 
