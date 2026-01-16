@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQxLjQwNDg0NSIsInVzZXJfaWQiOiIxYzNhYmFjYS02OGE0LTQ4YTQtYTI0OS01NWRhZDkwMTI1NWMifQ.XEvy2-1mfM_pnmsgAkCNLaYz4iayQa87euX6GVekIZ0' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among speak human soon their including partner.","maxScore":59,"minScore":21,"description":"Cause happen worry serious provide. Foot when material. It write stay build well make spend beat.\nCollection language human phone environment reach performance.","estimatedTime":"7 weeks","previewFileId":"4cad585f-1f90-4c63-b662-098464e0b613","createdByUserId":"1c3abaca-68a4-48a4-a249-55dad901255c"}'

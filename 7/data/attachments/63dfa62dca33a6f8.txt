@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQyLjg4OTExMiIsInVzZXJfaWQiOiIzOTdjMzQzZC1kNTY4LTRiY2YtYWVkZC01YmZhNTA5YzkwNzgifQ.7gdSlYxzmsSUt61hYZyS_VtsuvYkaeZLSj-VABWtCro' \
+  -H 'content-length: 325' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner eat rule fear.","maxScore":53,"minScore":3,"description":"Budget prove number discuss where medical hotel. Board fly none cost. Product reflect product investment can.","estimatedTime":"9 weeks","previewFileId":"ee6bf971-b025-4714-bcf3-907b130a9c14","createdByUserId":"397c343d-d568-4bcf-aedd-5bfa509c9078"}'

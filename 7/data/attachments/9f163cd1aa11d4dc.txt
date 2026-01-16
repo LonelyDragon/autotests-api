@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ0Ljc4NjU4OCIsInVzZXJfaWQiOiJiZjNlNjU5Yi0xOWI1LTRkMTktYjBmYy03YzhhMWEyMzQzNDEifQ.3eg0VwLTvAHv2j96tqxtY9U4ndABUaflTmqnsBQreSw' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maintain argue since education certainly.","courseId":"b713ba51-c55f-4fed-8ee3-936007dc8078","maxScore":66,"minScore":10,"orderIndex":48,"description":"The economic also perhaps decision. Billion then away young by couple day democratic. Peace itself program consider second star team.\nFast me how business of ten when range.","estimatedTime":"5 weeks"}'

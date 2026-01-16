@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ0Ljc4NjU4OCIsInVzZXJfaWQiOiJiZjNlNjU5Yi0xOWI1LTRkMTktYjBmYy03YzhhMWEyMzQzNDEifQ.3eg0VwLTvAHv2j96tqxtY9U4ndABUaflTmqnsBQreSw' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Finally time particular mission.","maxScore":58,"minScore":24,"description":"Accept though appear. Miss direction that sound after.","estimatedTime":"1 weeks","previewFileId":"719bb7eb-28d1-489a-829f-e185eceeb5e8","createdByUserId":"bf3e659b-19b5-4d19-b0fc-7c8a1a234341"}'

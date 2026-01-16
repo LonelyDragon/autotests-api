@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQzLjUzMTQxNSIsInVzZXJfaWQiOiJmODA0MDczNy05Y2YxLTQ2Y2UtOGEyMi1mZDg5N2YwMGJiNzMifQ.IqrVOxTB9D5-uSEItXLVH3FSQIM5HZkyjvOCcL1W6qM' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Read take grow model certainly.","courseId":"4eb0650e-6d31-412d-87df-c261d70a5036","maxScore":51,"minScore":16,"orderIndex":86,"description":"Sometimes add read be.\nFeel international number nothing. President whole customer ability.","estimatedTime":"4 weeks"}'

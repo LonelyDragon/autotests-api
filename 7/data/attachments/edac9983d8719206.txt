@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQzLjUzMTQxNSIsInVzZXJfaWQiOiJmODA0MDczNy05Y2YxLTQ2Y2UtOGEyMi1mZDg5N2YwMGJiNzMifQ.IqrVOxTB9D5-uSEItXLVH3FSQIM5HZkyjvOCcL1W6qM' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Left painting artist common.","maxScore":57,"minScore":20,"description":"Since response medical hospital whose. For hospital and.\nInvolve ok debate style term.\nNational by least war actually federal sister. Claim reduce black space teacher worry although.","estimatedTime":"3 weeks","previewFileId":"8d3dcd61-c174-4395-b851-9716c736f780","createdByUserId":"f8040737-9cf1-46ce-8a22-fd897f00bb73"}'

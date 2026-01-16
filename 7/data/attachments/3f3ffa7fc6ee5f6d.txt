@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/d3b8e0d0-4f74-445c-99eb-3e96f1dcc218
+INFO     HTTP_CLIENT:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/d3b8e0d0-4f74-445c-99eb-3e96f1dcc218
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:65 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exersise schema
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to d3b8e0d0-4f74-445c-99eb-3e96f1dcc218
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Maintain argue since education certainly.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to b713ba51-c55f-4fed-8ee3-936007dc8078
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 66
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 48
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to The economic also perhaps decision. Billion then away young by couple day democratic. Peace itself program consider second star team.
+Fast me how business of ten when range.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

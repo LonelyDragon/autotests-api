@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ1LjM2ODQyOSIsInVzZXJfaWQiOiI2ZWVjMzc4OS1lNDJiLTRlODEtOWI4NS1mZTBhOWY2NDZiZTkifQ.h3aJv1ZrcMV3jwjf2-E6QhWYQBDC7QUrs9qo4EbZhwg' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tax newspaper election police.","courseId":"cfbd944b-34ce-4947-b53a-64896fb1b74e","maxScore":60,"minScore":4,"orderIndex":79,"description":"Pretty under not usually fly term statement interest. Become could soldier. Ok dog especially.\nFive thing feel show group. Throw describe director street last step or.","estimatedTime":"3 weeks"}'

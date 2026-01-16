@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQyLjI5NjIxMCIsInVzZXJfaWQiOiJmM2EwM2JlOS00OTk4LTQ2ZWEtYjE3ZS00ZTg0YTVmZDZjMjQifQ.Nj-UMM9XdmN-dHP4pJlX4h_VZq9FhM_d5ysAn3sNBN4' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask most hold across way whole.","maxScore":92,"minScore":8,"description":"Staff lose college near any evening store. As at join thought price. Degree president people their help some word.\nVarious rule lawyer. Option during effort call get. Trade along movie way do case.","estimatedTime":"3 weeks","previewFileId":"e8fe82ec-9542-49cd-b5de-0a495e8c90a7","createdByUserId":"f3a03be9-4998-46ea-b17e-4e84a5fd6c24"}'

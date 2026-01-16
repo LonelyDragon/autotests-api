@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b29104aa-a03c-4d41-9817-e762ebd5b6d9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQyLjI5NjIxMCIsInVzZXJfaWQiOiJmM2EwM2JlOS00OTk4LTQ2ZWEtYjE3ZS00ZTg0YTVmZDZjMjQifQ.Nj-UMM9XdmN-dHP4pJlX4h_VZq9FhM_d5ysAn3sNBN4' \
+  -H 'content-length: 202' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table wonder eat value bill sister watch.","maxScore":76,"minScore":13,"description":"Fund career contain travel rather then firm. Nation natural foot simply he on.","estimatedTime":"7 weeks"}'

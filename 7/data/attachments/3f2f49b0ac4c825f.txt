@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ2LjAxMjY3MyIsInVzZXJfaWQiOiI1YmIxNDcwNC1hNDI0LTRlNzAtYTZmNi04MzhlODczODk0MzcifQ.1WxccMpoLbitp3a52rNuYegiiivKlH3Q9Ne2_4UV1WU' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Upon central student hand threat degree marriage case.","maxScore":89,"minScore":4,"description":"Matter actually the office home say. East song employee. Stand test try lead reveal partner none discover.","estimatedTime":"10 weeks","previewFileId":"3dab8b64-ef7f-438c-b71a-6eb3f01f460d","createdByUserId":"5bb14704-a424-4e70-a6f6-838e87389437"}'

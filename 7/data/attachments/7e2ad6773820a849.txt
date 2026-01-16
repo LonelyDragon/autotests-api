@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ1LjM2ODQyOSIsInVzZXJfaWQiOiI2ZWVjMzc4OS1lNDJiLTRlODEtOWI4NS1mZTBhOWY2NDZiZTkifQ.h3aJv1ZrcMV3jwjf2-E6QhWYQBDC7QUrs9qo4EbZhwg' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"One close away again focus.","maxScore":67,"minScore":2,"description":"Maybe more picture skin. Approach never ability admit item treat. Outside both science theory address like.","estimatedTime":"5 weeks","previewFileId":"663fec27-5d8b-4531-aa94-2b1a3a1fe8ef","createdByUserId":"6eec3789-e42b-4e81-9b85-fe0a9f646be9"}'

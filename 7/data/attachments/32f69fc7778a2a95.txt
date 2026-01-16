@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAxLTE2VDEwOjU1OjQ0LjEyNjk2OCIsInVzZXJfaWQiOiJkZDdhYmU3Yi0xZDRkLTQ5YmUtYWY2Ni1kM2EwMjgyNjdlMzIifQ.MROZYftvyRoYDcEdKdaT7kYLNK1nLkwz3FQWFxRWVOc' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion country himself above watch deal chance.","maxScore":75,"minScore":3,"description":"Decide need end everything. Cost standard will condition. Training high war dog.\nNew receive official road he forward let history. Goal ok improve close.","estimatedTime":"8 weeks","previewFileId":"93e56157-429a-4b2e-adae-809a8a4306ff","createdByUserId":"dd7abe7b-1d4d-49be-af66-d3a028267e32"}'
